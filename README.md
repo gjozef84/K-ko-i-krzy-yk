@@ -1,7 +1,7 @@
 Gra w Kółko i krzyżyk powinna powinna się składać z następujących klas:
 1. Klasa przechowująca dane o planszy. Powinna zawierać testy:
-    - sprawdzający, czy da się utworzyć nową plansze
-    - czy nowa plansza zawiera puste wartości
+    + sprawdzający, czy da się utworzyć nową plansze
+    + czy nowa plansza zawiera puste wartości
     - czy da się dodać prawidłowy ruch
     - czy da się dodać dwa razy taki sam ruch
     - czy da się dodać nieprawidłowy ruch (rozważyć przypadki podania niepoprawnych koordynatów oraz niepoprawnego symbolu)
