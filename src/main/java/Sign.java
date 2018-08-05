@@ -3,5 +3,6 @@
  */
 public enum Sign {
     X,
-    O;
+    O,
+    NONE
 }

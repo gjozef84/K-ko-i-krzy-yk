@@ -2,16 +2,16 @@ Gra w Kółko i krzyżyk powinna powinna się składać z następujących klas:
 1. Klasa przechowująca dane o planszy. Powinna zawierać testy:
     + sprawdzający, czy da się utworzyć nową plansze
     + czy nowa plansza zawiera puste wartości
-    - czy da się dodać prawidłowy ruch
-    - czy da się dodać dwa razy taki sam ruch
-    - czy da się dodać nieprawidłowy ruch (rozważyć przypadki podania niepoprawnych koordynatów oraz niepoprawnego symbolu)
-    - czy da się pobrać element planszy o prawidłowym adresie
-    - czy da się pobrać element planszy o nieprawidłowym adresie
+    + czy da się dodać prawidłowy ruch
+    + czy da się dodać dwa razy taki sam ruch
+    + czy da się dodać nieprawidłowy ruch (rozważyć przypadki podania niepoprawnych koordynatów oraz niepoprawnego symbolu)
+    + czy da się pobrać element planszy o prawidłowym adresie
+    + czy da się pobrać element planszy o nieprawidłowym adresie
 2. Klasę sprawdzającą, czy dala plansza jest już rozwiązana (czy któryś z graczy wygrał). Testy:
-    - czy dla pustej planszy metoda sprawdzająca zwraca informacje o tym, że nikt nie wygrał
-    - czy jeżeli w którymkolwiek z wierszy są 3 symbole jednego gracza, to czy zwracany jest symbol tego gracza
-    - czy jeżeli w którejkolwiek z kolumn są 3 symbole jednego gracza, to czy zwracany jest symbol tego gracza
-    - czy jeżeli na którejkolwiek przekątnej są 3 symbole jednego gracza, to czy zwracany jest symbol tego gracza
+    + czy dla pustej planszy metoda sprawdzająca zwraca informacje o tym, że nikt nie wygrał
+    + czy jeżeli w którymkolwiek z wierszy są 3 symbole jednego gracza, to czy zwracany jest symbol tego gracza
+    + czy jeżeli w którejkolwiek z kolumn są 3 symbole jednego gracza, to czy zwracany jest symbol tego gracza
+    + czy jeżeli na którejkolwiek przekątnej są 3 symbole jednego gracza, to czy zwracany jest symbol tego gracza
 3. Klasę gracza ludzkiego
     - sprawdzić, czy da się utworzyć taką klasę (rozważyć, czy powinna ona mieć konstruktor bezparametrowy, czy może powinna wymagać jakiejś wartości)
     - czy po wpisaniu wartosci na strumien wejsciowy jest zwracany poprawny adres komórki planszy
